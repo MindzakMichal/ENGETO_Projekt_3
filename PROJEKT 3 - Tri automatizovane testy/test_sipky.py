@@ -30,16 +30,3 @@ def test_nsa_popup(page: Page):
         page.locator("a:has(img[src='/images/content/narodni_sportovni_agentura.png'])").click()
     popup = popup_info.value
     expect(popup).to_have_url("https://nsa.gov.cz/")
-
-
-
-
-
-
-    
-
-
-
-
-
-
