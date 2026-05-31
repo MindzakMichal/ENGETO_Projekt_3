@@ -18,7 +18,7 @@ python -m playwright install
 
 # Running Tests
 Run all tests:
-python -m pytest test_sipky.org
+python -m pytest test_sipky.py
 
 Run a specific test:
 python -m pytest test_sipky.py::test_terminovka_page
