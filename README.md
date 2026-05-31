@@ -33,7 +33,7 @@ pytest-playwright
 
 ---
 
-#Test Descriptions
+# Test Descriptions
 1. test_terminovka_page
 - Opens the homepage
 - Clicks on the "Termínovka" link
@@ -51,7 +51,7 @@ pytest-playwright
 
 ---
 
-#Notes
+# Notes
 - Tests use the Playwright page fixture provided by pytest-playwright
 - Browser runs in headless mode by default
 - Selectors are designed to be as stable as possible
